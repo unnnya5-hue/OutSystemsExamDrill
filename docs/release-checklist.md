@@ -21,6 +21,7 @@
 - [x] AdMob広告配信用の外部通信あり
 - [x] オフライン時はアプリ利用不可
 - [x] 端末内保存
+- [x] Privacy Manifestで端末内保存（UserDefaults）の利用理由を宣言
 
 ## App Store Connect
 
@@ -31,7 +32,7 @@
 - [ ] スクリーンショットを作成
 - [ ] 年齢レーティング回答
 - [ ] Appプライバシー回答
-- [ ] app-ads.txtを公開
+- [x] app-ads.txtをDeveloper Websiteのホスト直下で公開
 - [ ] ArchiveしてUpload
 - [ ] ビルド処理完了後に審査提出
 
@@ -42,7 +43,7 @@
 - [x] Banner Unit ID: `ca-app-pub-6961277874965643/1686292775`
 - [x] Interstitial Unit ID: `ca-app-pub-6961277874965643/7706694657`
 - [ ] AdMob側でiOSアプリを登録
-- [ ] App Store公開ページまたはDeveloper Websiteのホスト直下に`app-ads.txt`を配置
+- [x] Developer Websiteのホスト直下に`app-ads.txt`を配置
 - [ ] 実機で本番広告またはAdMob側の配信状態を確認
 
 ## 提出前検索
