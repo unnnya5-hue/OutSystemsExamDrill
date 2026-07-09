@@ -1,8 +1,21 @@
 # App Store提出用スクリーンショット
 
 作成日: 2026-07-09
+更新日: 2026-07-10
 
-## iPhone 6.9インチ
+## iPhone 6.5インチ（App Store Connect提出用）
+
+保存先: `docs/app-store-screenshots/iphone-6-5/`
+
+- `01-home.png` - ホーム / 資格選択
+- `02-mode.png` - 学習モード選択
+- `03-quiz.png` - クイズ演習
+- `04-result.png` - 模試結果
+- `05-learning.png` - 教材詳細
+
+画像サイズ: 1284 x 2778
+
+## iPhone 6.9インチ（参考）
 
 保存先: `docs/app-store-screenshots/iphone-6-9/`
 
@@ -13,6 +26,8 @@
 - `05-learning.png` - 教材詳細
 
 画像サイズ: 1320 x 2868
+
+App Store ConnectのiPhone 6.5インチ枠では、`iphone-6-5` の画像を使用します。
 
 ## iPad 13インチ
 
