@@ -24,6 +24,7 @@
 		BB000001000000000000000F /* LearningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000010000000000000111 /* LearningData.swift */; };
 		BB0000010000000000000010 /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000010000000000000112 /* LearningView.swift */; };
 		BB0000010000000000000011 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BB0000010000000000000113 /* PrivacyInfo.xcprivacy */; };
+		BB0000010000000000000012 /* ScreenshotPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000010000000000000114 /* ScreenshotPreviewView.swift */; };
 		BBGMA000000000000000001 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BBGMA000000000000000003 /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		BB0000010000000000000111 /* LearningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningData.swift; sourceTree = "<group>"; };
 		BB0000010000000000000112 /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
 		BB0000010000000000000113 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BB0000010000000000000114 /* ScreenshotPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BB000001000000000000010B /* StatsView.swift */,
 				BB0000010000000000000111 /* LearningData.swift */,
 				BB0000010000000000000112 /* LearningView.swift */,
+				BB0000010000000000000114 /* ScreenshotPreviewView.swift */,
 				BB000001000000000000010D /* AdSupport.swift */,
 				BB000001000000000000010E /* Connectivity.swift */,
 				BB000001000000000000010C /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 				BB000001000000000000000B /* StatsView.swift in Sources */,
 				BB000001000000000000000F /* LearningData.swift in Sources */,
 				BB0000010000000000000010 /* LearningView.swift in Sources */,
+				BB0000010000000000000012 /* ScreenshotPreviewView.swift in Sources */,
 				BB000001000000000000000D /* AdSupport.swift in Sources */,
 				BB000001000000000000000E /* Connectivity.swift in Sources */,
 			);

@@ -7,7 +7,9 @@ struct RootView: View {
 
     var body: some View {
         Group {
-            if connectivity.isOnline {
+            if let screenshotTarget = ScreenshotTarget.current {
+                ScreenshotPreviewView(target: screenshotTarget)
+            } else if connectivity.isOnline {
                 VStack(spacing: 0) {
                     mainTabs
                     AdBannerSlot(isOnline: connectivity.isOnline)
@@ -20,15 +22,18 @@ struct RootView: View {
         .environmentObject(connectivity)
         .environmentObject(adCoordinator)
         .onAppear {
+            guard ScreenshotTarget.current == nil else { return }
             adCoordinator.configureIfNeeded(isOnline: connectivity.isOnline)
             adCoordinator.handleInitialActivation(isOnline: connectivity.isOnline)
         }
         .onChange(of: connectivity.isOnline) { isOnline in
+            guard ScreenshotTarget.current == nil else { return }
             guard isOnline else { return }
             adCoordinator.configureIfNeeded(isOnline: true)
             adCoordinator.handleInitialActivation(isOnline: true)
         }
         .onChange(of: scenePhase) { newPhase in
+            guard ScreenshotTarget.current == nil else { return }
             adCoordinator.handleScenePhaseChange(newPhase, isOnline: connectivity.isOnline)
         }
     }
