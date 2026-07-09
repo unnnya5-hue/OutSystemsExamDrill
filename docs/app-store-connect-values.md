@@ -15,6 +15,15 @@
 - 外部サーバー通信: Google Mobile Ads SDKによる広告配信
 - オフライン利用: 不可
 
+## 公開URL
+
+- Marketing URL / Developer Website: `https://unnnya5-hue.github.io/OutSystemsExamDrill/`
+- サポートURL: `https://unnnya5-hue.github.io/OutSystemsExamDrill/support.html`
+- プライバシーポリシーURL: `https://unnnya5-hue.github.io/OutSystemsExamDrill/privacy.html`
+- app-ads.txt: `https://unnnya5-hue.github.io/OutSystemsExamDrill/app-ads.txt`
+
+AdMobのapp-ads.txtクロールはDeveloper Websiteのホスト直下も確認します。GitHub Pagesのプロジェクト配下URLをDeveloper Websiteに使う場合でも、`https://unnnya5-hue.github.io/app-ads.txt` は公開済みです。
+
 ## サブタイトル
 
 OutSystems資格の予想問題で反復学習
